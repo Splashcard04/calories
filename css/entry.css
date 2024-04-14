@@ -1,0 +1,69 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #180e29;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    text-align: left;
+    background-color: #392263;
+    overflow: hidden;
+}
+
+.top-bar h1 {
+    font-size: 30px;
+    padding-left: 20px;
+    color: rgb(118, 224, 118);
+}
+
+.container {
+    text-align: center;
+}
+
+.container p {
+    color: rgb(118, 224, 118);
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.container form {
+    padding-top: 20px;
+}
+
+.container input {
+    background-color: transparent;
+    border-style: solid;
+    border-color: rgb(118, 224, 118);
+    color: rgb(118, 224, 118);
+    font-size: 22px;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.container input::placeholder {
+    color: rgb(118, 224, 118);
+}
+
+#formbt {
+    background-color: rgb(118, 224, 118);
+    border: none;
+    color: #180e29;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#formbt:hover {
+    background-color: rgb(82, 153, 82);
+}
+
+#skip {
+    background-color: transparent;
+    border: none;
+    color: rgb(194, 255, 194);
+    text-decoration: underline;
+    cursor: pointer
+}

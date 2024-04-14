@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/entry.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar">
+            <h1>Calorie Counter</h1>
+        </div>
+        <div class="inputs">
+            <form action="/tracker" method="post">
+                <p>Enter your daily calorie goal</p>
+                <input type="text" id="cals" name="cals" placeholder="Enter Calories">
+                <button type="submit" id="formbt">Continue</button>
+            </form>
+            <form action="/tracker" method="post">
+                <button type="submit" id="skip">Or Skip Setup</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
